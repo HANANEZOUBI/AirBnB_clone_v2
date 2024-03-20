@@ -16,5 +16,5 @@ class City(BaseModel):
         places = relationship('Place', backref='cities',
                               cascade='all, delete, delete-orphan')
     else:
-         name = ''
+        name = ''
         state_id = ''
