@@ -8,7 +8,7 @@ from os import path
 
 env.hosts = ['52.207.208.33', '35.174.176.97']
 env.user = 'ubuntu'
-env.key_filename = 'C:\Users\lenovo\.ssh/id_rsa'
+env.key_filename = 'C:\Users\lenovo\.ssh\id_rsa'
 
 
 def do_deploy(archive_path):
