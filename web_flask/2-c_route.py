@@ -1,4 +1,4 @@
-""" 
+"""
     Your web application must be listening on 0.0.0.0, port 5000
     Routes:
         /: display “Hello HBNB!”
@@ -23,6 +23,7 @@ def hello_hbnb():
 def hbnb():
     """Function called through the /hbnb route."""
     return 'HBNB'
+
 
 @app.route('/c/<text>', strict_slashes=False)
 def display_text(text):
